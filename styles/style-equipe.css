@@ -216,13 +216,8 @@
     }
 
     .div-section-1 .image {
-        margin: 10px 30px;
-        max-width: 100%;
-        min-width: 400px;
-    }
-    .div-section-1 .image img{
-        object-fit: cover;
-        width: 100%;
+        margin: 10px 0;
+        max-width: 100%
     }
 
     .center-text {
