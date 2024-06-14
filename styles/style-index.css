@@ -229,10 +229,19 @@
       margin: 40px 0 0 20px;
       font-size: 1.5625rem; /* 25px */
     }
+    .div-section-1 h1{
+      padding-top: 60px;
+    
+    }
+    .div-section-1 p{
+      padding-bottom: 40px;
+    }
   
     .div-section-3 {
       flex-direction: column;
       height: auto;
+      margin: 0;
+      padding: 0;
     }
   
     .text-div-section-3-content {
@@ -252,8 +261,11 @@
     }
   
     .div-section-1 h1 {
-      padding-top: 60%;
+      padding-top: 60px;
       font-size: 1.875rem; /* 30px */
+    }
+    .div-section-1 p{
+      padding-bottom: 40px;
     }
   
     .div-section-4 p {
