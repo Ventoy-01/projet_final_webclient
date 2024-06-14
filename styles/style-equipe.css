@@ -1,10 +1,33 @@
-/* section */
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #c6c6c6;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 0;
+}
+
+/* Section Header */
 .section {
     background: url(../images/equipe-principal.jpg) center center / cover;
     height: 800px;
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+    max-width: 100%; 
 }
 
 .div-section {
@@ -14,6 +37,7 @@
     color: white;
     background: rgba(0, 0, 0, 0.5);
     overflow: auto;
+    max-width: 100%; 
 }
 
 .div-section h1 {
@@ -26,10 +50,10 @@
     font-size: 1.5rem;
     text-align: center;
     margin: 40px 0;
+    max-width: 100%; 
 }
 
-/* grid */
-
+/* Grid */
 .section-1 p {
     margin: 60px 0 0 90px;
     font-size: 1.875rem;
@@ -40,7 +64,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 10px 0 50px;
-    width: 95%;
+    width: 100%;
+    max-width: 100%; 
 }
 
 .div-section-1 h3 {
@@ -68,7 +93,7 @@
     transform: scale(1.01);
 }
 
-/* text */
+/* Text */
 .div-text {
     font-size: 1.875rem;
     text-align: center;
@@ -147,7 +172,7 @@
 @media (max-width: 992px) {
     .div-section {
         padding-top: 100px;
-        }
+    }
 
     .div-section h1 {
         font-size: 2.25rem;
@@ -155,13 +180,13 @@
 
     .div-section p {
         font-size: 1.5rem;
-        margin: 20px 0;
+        margin: 20px 5%;
         width: 90%;
     }
 
     .div-text p {
         font-size: 1.25rem;
-        padding: 0;
+        padding: 0 10px;
     }
 
     .section-1 p {
@@ -213,11 +238,12 @@
 
     .div-section-1 {
         flex-direction: column;
+        margin: 0;
     }
 
     .div-section-1 .image {
         margin: 10px 0;
-        max-width: 100%
+        max-width: 100%;
     }
 
     .center-text {
