@@ -242,6 +242,7 @@
       height: auto;
       margin: 0;
       padding: 0;
+      width: 95%;
     }
   
     .text-div-section-3-content {
@@ -256,8 +257,8 @@
   
   @media (max-width: 576px) {
     .center-text {
-      width: 90%;
-      margin-left: 5%;
+      width: 100%;
+      /* margin-left: 5%; */
     }
   
     .div-section-1 h1 {
