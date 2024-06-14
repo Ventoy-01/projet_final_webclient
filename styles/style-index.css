@@ -125,7 +125,6 @@
   
   /* Section 4 */
   .section-4 {
-    /* margin-left: 20px; */
     font-size: 1.25rem; 
   }
   
@@ -212,22 +211,30 @@
   
     .div-section-1 p {
       font-size: 1.125rem; /* 18px */
-    }
-  
-    .div-section-2 {
-      flex-direction: column;
-      margin: 0 20px;
-    }
-  
-    .div-section-2 .image {
-      margin: 10px 0;
-    }
+    }  
   }
+  .div-section-2 {
+    margin: 0 20px;
+    
+  }
+    
+    .div-section-2 .image {
+      margin: 10px 5px;
+    }
   
   @media (max-width: 768px) {
     .section-2 p {
       margin: 40px 0 0 20px;
       font-size: 1.5625rem; /* 25px */
+    }
+    .div-section-2 {
+      flex-direction: column;
+      margin: 0 20px;
+      
+    }
+    .div-section-2 .image img{
+      width: 100%;
+      object-fit: cover;
     }
     .div-section-1 h1{
       padding-top: 60px;
