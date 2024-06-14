@@ -191,4 +191,9 @@ footer {
     height: auto;
     background-color: #c78201;
   }
+  footer{
+    margin-right: 0;
+    width: 100%;
+  }
+  
 }

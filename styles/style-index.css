@@ -242,7 +242,7 @@
       height: auto;
       margin: 0;
       padding: 0;
-      width: 95%;
+      width: 100%;
     }
   
     .text-div-section-3-content {
@@ -257,16 +257,17 @@
   
   @media (max-width: 576px) {
     .center-text {
-      width: 100%;
-      /* margin-left: 5%; */
+      width: 95%;
+      margin-left: 2.5%;
     }
+
   
     .div-section-1 h1 {
       padding-top: 60px;
       font-size: 1.875rem; /* 30px */
     }
     .div-section-1 p{
-      padding-bottom: 40px;
+      padding-bottom:0 0 40px 0;
     }
   
     .div-section-4 p {
