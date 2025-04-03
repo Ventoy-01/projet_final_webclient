@@ -38,9 +38,10 @@ a {
 }
 
 .active {
-  background-color: #c78201;
-  border-radius: 15px;
+    color: #3498db; /* Couleur de l'onglet actif */
+    border-bottom: 3px solid #ffffff; /* Ligne sous l'onglet actif */
 }
+
 
 .get-logo-color {
   color: rgb(252, 187, 10);
@@ -68,7 +69,7 @@ header {
 
 #entete #navigation .logo a {
   font-family: "Indie Flower", cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: #fff;
 }
@@ -89,8 +90,8 @@ header {
 
 #entete #navigation ul li a {
   margin-right: 10px;
-  font-size: 1.5625rem; /* 25px */
-  font-weight: 500;
+  font-size: 1.25rem; /* 25px */
+  font-weight: 400;
   color: #fff;
   padding: 10px 15px;
   border-radius: 5px;
